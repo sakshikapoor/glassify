@@ -1,0 +1,18 @@
+{
+  "name": "glassify",
+  "version": "1.0.0",
+  "description": "glass effect",
+  "main": "styles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "glass"
+  ],
+  "author": "Sakshi Kapoor <sakshi.kapoor97@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  }
+}

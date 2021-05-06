@@ -1,0 +1,39 @@
+.glassify {
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); 
+	border-radius: 5px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	color: #292929;
+	transition: transform 250ms;
+	padding: 20px;
+	background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) );
+}
+
+.glassify:hover {
+	transform: translateY(-2px);
+}
+
+.glassify:before {
+	content: "";
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	filter: blur(10px);
+	margin: -20px;
+}
+
+.glassify.glassify-dark {
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 1); 
+	color: #f1f1f1;
+	background: linear-gradient( to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2) );
+}
+
+.glassify.glassify-dark::before {
+	box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.7);
+}
+
