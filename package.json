@@ -1,6 +1,6 @@
 {
   "name": "glassify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "glass effect",
   "main": "styles.scss",
   "scripts": {

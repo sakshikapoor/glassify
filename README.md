@@ -21,7 +21,7 @@ use css class `glassify` in css styles
 </div>
 ```
 
-![Example](./example-images/light-glass-example.png)
+![Example](https://drive.google.com/uc?export=view&id=1zLke-4oyithawCsuMbGUTigmOWlE8_E9)
 
 
 # Dark Glass effect usage:
@@ -34,4 +34,4 @@ use css class `glassify-dark` to make the glass darker
 </div>
 ```
 
-![Example](./example-images/dark-glass-example.png)
+![Example](https://drive.google.com/uc?export=view&id=1z7B2gESm6Abr-QdX7ONsLk9ZnOnFfI0J)
