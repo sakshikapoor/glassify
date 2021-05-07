@@ -5,13 +5,8 @@
 	z-index: 1;
 	overflow: hidden;
 	color: #292929;
-	transition: transform 250ms;
 	padding: 20px;
 	background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) );
-}
-
-.glassify:hover {
-	transform: translateY(-2px);
 }
 
 .glassify:before {
@@ -23,8 +18,9 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	filter: blur(10px);
+	backdrop-filter: blur(2px);
 	margin: -20px;
+	font-family: Helvetica, sans-serif;
 }
 
 .glassify.glassify-dark {
