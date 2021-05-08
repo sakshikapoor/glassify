@@ -1,0 +1,49 @@
+
+.glassify-shapes {
+    background: none;
+    box-shadow: none;
+    padding: 0px;
+    display: inline-block;
+    min-width: 20px;
+    filter: drop-shadow(0px 0px 2px #FFF);
+}
+
+.glassify-shapes:before {
+    content:"";
+    display:block;
+    position: relative;
+    margin: 0px;
+    padding-top:100%;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) );
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+}
+
+.glassify-shapes.glassify-dark {
+    box-shadow: none;
+    background: none;
+    filter: drop-shadow(0px 0px 2px #000);
+}
+
+.glassify-shapes.glassify-dark:before {
+    background: linear-gradient( to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) );
+}
+
+.glassify-shapes.glassify-star::before {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.glassify-shapes.glassify-left::before {
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+.glassify-shapes.glassify-right::before {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.glassify-shapes.glassify-circle::before {
+    clip-path: circle(50% at 50% 50%);
+}
+
+.glassify-shapes.glassify-message::before {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
